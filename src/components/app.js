@@ -19,8 +19,6 @@ import {
 const browserHistory = createBrowserHistory();
 //const history = createHashHistory();
 //const  url="https://www.reddit.com/r/analog/top/.json";
-
-
 class App extends React.Component {
 
   constructor(props) {
