@@ -40,11 +40,10 @@ setAFav() {
   else if (localStorage.length > 0) {
   var newItem2 = this.props.post;
   newArray.forEach(function(item,index){
-	//console.log(item.id);
+	console.log(item.id);
   if(item.id == postId) {
     matchFound = "Match";
     }
-    
   });
   ///////////////////////////////
    if (matchFound !== "Match") {
